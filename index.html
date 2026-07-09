@@ -184,49 +184,67 @@
       </div>
 
       <div class="project-tabs" role="tablist" aria-label="Featured project selector">
-        <button class="project-tab active" type="button" data-project="wellnest" role="tab" aria-selected="true">
-          <span class="folder-icon" aria-hidden="true">▣</span> 01 · WellNest
+        <button class="project-tab active" type="button" data-project="river" role="tab" aria-selected="true">
+          <span class="folder-icon" aria-hidden="true">▣</span> 01 · The River
         </button>
-        <button class="project-tab" type="button" data-project="video" role="tab" aria-selected="false">
-          <span class="folder-icon" aria-hidden="true">▣</span> 02 · Video
+        <button class="project-tab" type="button" data-project="robotics" role="tab" aria-selected="false">
+          <span class="folder-icon" aria-hidden="true">▣</span> 02 · Robotics
         </button>
         <button class="project-tab" type="button" data-project="education" role="tab" aria-selected="false">
-          <span class="folder-icon" aria-hidden="true">▣</span> 03 · Education
+          <span class="folder-icon" aria-hidden="true">▣</span> 03 · Monster Lab
         </button>
       </div>
 
       <div class="interactive-project-stage">
         <article class="project-preview-window retro-window" aria-live="polite">
           <div class="window-bar black-bar">
-            <span id="projectAppTitle">✶ WELLNEST_HEALTH.APP</span>
+            <span id="projectAppTitle">✶ THERIVERABILENE.COM</span>
             <div class="window-controls" aria-hidden="true"><span>–</span><span>□</span><span>×</span></div>
           </div>
-          <div class="browser-mockup">
-            <div class="mock-dots" aria-hidden="true"><span></span><span></span><span></span></div>
-            <div class="mock-hero" id="projectMockHero">
-              <span id="projectMockTitle">WellNest Health</span>
+          <div class="project-media-stack">
+            <div class="project-slider" aria-label="Selected project visual gallery">
+              <figure class="project-main-frame">
+                <div class="slide-category" id="projectSlideCategory">PRINT WORK</div>
+                <img id="projectMainImage" src="assets/river-postcards.webp" alt="The River of Life Church welcome postcard designs" />
+                <figcaption id="projectVisualNote">Welcome-home postcard and printed invite pieces created for guest connection and community outreach.</figcaption>
+              </figure>
+              <div class="slider-controls" aria-label="Project image controls">
+                <button class="slider-btn" id="projectPrev" type="button" aria-label="Previous project visual">←</button>
+                <div class="slider-status"><span id="projectSlideNumber">01</span>/<span id="projectSlideTotal">10</span></div>
+                <button class="slider-btn" id="projectNext" type="button" aria-label="Next project visual">→</button>
+              </div>
+              <div class="project-thumb-row" id="projectThumbRow" aria-label="Supporting visuals for the selected project"></div>
             </div>
-            <div class="mock-row" aria-hidden="true">
-              <span></span><span></span><span></span>
-            </div>
-            <div class="mock-phone" id="projectPhoneLabel">MOCK</div>
           </div>
-          <div class="project-callout" id="projectCallout">real people.<br>real problems.<br>real solutions.</div>
+          <div class="project-callout" id="projectCallout">brand system.<br>web launch.<br>social growth.</div>
         </article>
 
         <article class="project-case-window retro-window" aria-live="polite">
           <div class="window-bar case-bar">
-            <span id="caseFileName">CASE_01.FOL</span>
+            <span id="caseFileName">CASE_01_THE_RIVER.FOL</span>
             <div class="window-controls" aria-hidden="true"><span>–</span><span>□</span><span>×</span></div>
           </div>
           <div class="case-content">
             <p class="case-number" id="activeProjectNumber">01</p>
-            <h3 id="activeProjectTitle">WellNest Health</h3>
-            <p id="activeProjectDescription">A human-centered health platform. Real people, real problems, real solutions—designed with empathy, built with purpose.</p>
-            <div class="tags case-tags" id="activeProjectTags">
-              <span>UX/UI DESIGN</span><span>RESEARCH</span><span>PROTOTYPE</span>
+            <h3 id="activeProjectTitle">The River of Life Church</h3>
+            <p id="activeProjectDescription">A full creative direction, website, social media, and multimedia case study for a community-centered church brand in Abilene, Texas.</p>
+            <ul class="case-bullets" id="activeProjectBullets">
+              <li>Designed and launched the church website to clarify visitor information and support community engagement.</li>
+              <li>Directed social media, sermon graphics, event promos, and multi-platform digital storytelling.</li>
+              <li>Helped grow social engagement by 40% in one year, contributing to increased church membership.</li>
+            </ul>
+            <div class="case-metrics" id="activeProjectMetrics">
+              <span><strong>+40%</strong> social engagement</span>
+              <span><strong>global</strong> audience reach</span>
+              <span><strong>multi-channel</strong> outreach</span>
             </div>
-            <a href="#" class="pixel-button case-link" id="activeProjectLink">view case study →</a>
+            <div class="tags case-tags" id="activeProjectTags">
+              <span>CREATIVE DIRECTION</span><span>WEB DESIGN</span><span>SOCIAL MEDIA</span><span>VIDEO</span>
+            </div>
+            <div class="case-actions">
+              <a href="https://www.theriverabilene.com/" target="_blank" rel="noopener" class="pixel-button case-link" id="activeProjectLink">visit website →</a>
+              <a href="https://vimeo.com/valeriavillanueva" target="_blank" rel="noopener" class="pixel-button secondary case-link" id="activeProjectVideoLink">video work →</a>
+            </div>
           </div>
         </article>
       </div>
@@ -256,11 +274,7 @@
           </div>
 
           <div class="why-details">
-            <p>I approach innovation as my mentor and Department Lead, Joyce Pereira, defines it:</p>
-            <blockquote class="mentor-quote">
-              “Innovation is creatively using available knowledge and resources to meet human needs and enhance human experiences.”
-              <cite>— Joyce Pereira</cite>
-            </blockquote>
+            <p class="quote-reference">Joyce Pereira’s definition of innovation is pinned at the top of this site for a reason: it is the lens I use to build.</p>
             <p>That philosophy shapes the way I solve problems.</p>
             <p>I do not use design simply to make something attractive. I use it to create clarity, connection, and understanding.</p>
             <p>I do not use technology simply because it is new. I use it when it can make an experience more useful, accessible, efficient, or engaging.</p>
@@ -366,6 +380,7 @@
           <div class="resume-actions">
             <a class="pixel-button" href="assets/valeria-villanueva-resume-2026.pdf" target="_blank" rel="noreferrer">view résumé →</a>
             <a class="pixel-button secondary" href="assets/valeria-villanueva-resume-2026.pdf" download>download PDF ↓</a>
+            <a class="pixel-button github-code-btn" href="https://github.com/iamval8" target="_blank" rel="noreferrer">open code drawer ↗</a>
           </div>
         </div>
       </div>
