@@ -270,7 +270,7 @@ footer { background: var(--purple); color: white; padding: 10px 0; font: 500 11p
 .why-details > p { margin: 0 0 18px; }
 .mentor-quote {
   position: relative;
-  width: min(100%, 430px);
+  width: min(60%, 430px);
   margin: 16px auto 22px;
   padding: 17px 19px 16px;
   background: var(--paper);
