@@ -1,4 +1,4 @@
-# Valeria Villanueva Portfolio
+# Valeria Villanueva's Portfolio
 
 A responsive retro-millennial portfolio prototype built with plain HTML, CSS, and JavaScript.
 
